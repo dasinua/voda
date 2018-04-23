@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Вектор воды</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link rel="icon" href="favicon.png"/>
+
+	<!--build:css css/styles.min.css-->
+	<link rel="stylesheet" href="css/styles.css" />
+	<!--endbuild-->
+
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+	<!-- BEGIN navbar  -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- logo -->
+            <a class="navbar-brand da-header__logo" href="index.html">
+            	<img src="images/header__logo.png" alt="">
+            </a>
+            </div>
+            <!-- menu -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">главная<span class="sr-only">(current)</span></a></li>
+
+                <li class="dropdown">
+					 <a href="#" class="dropdown-toggle">услуги</a>
+					 <ul class="dropdown-menu" role="menu">
+						 <li><a href="montazh.html">Монтаж и пусконаладка</a></li>
+						 <li><a href="servisnoye_obsluzhivaniye.html">Сервисное обслуживание</a></li>
+						 <li><a href="prodazha_oborudovaniya.html">Продажа оборудования</a></li>
+						 <li><a href="prodazha_reagentov.html">Продажа реагентов</a></li>
+						 <li><a href="podbor_oborudovaniya.html">Подбор оборудования по запросу</a></li>
+						 <li><a href="basseyny.html">Бассейны</a></li>
+					 </ul>
+ 				</li>
+
+ 				<li class="dropdown">
+					 <a href="#" class="dropdown-toggle">методы очистки воды</a>
+					 <ul class="dropdown-menu" role="menu">
+						 <li><a href="osvetleniye_vody.html">Осветление</a></li>
+						 <li><a href="obezzhelezivaniye_vody.html">Обезжелезивание воды</a></li>
+						 <li><a href="umyagcheniye_vody.html">Умягчение</a></li>
+						 <li><a href="obezzarazhivaniye_vody.html">УФ обеззараживание</a></li>
+						 <li><a href="membrannyye_tekhnologii.html">Мембранные технологии</a></li>
+					 </ul>
+ 				</li>
+
+                <li><a href="contacts.html">контакты</a></li>
+            </ul>
+          </div>
+		  <!-- BEGIN right  -->
+		  	<div class="da-header__right">
+		  	    <p class="da-header__phone">+7 (913) 931-05-10</p>
+          		<button class="da-header__btn" data-toggle="modal" data-target="#myModal">Заказать звонок</button>
+		  	</div>
+		  <!-- END right -->
+       </div>
+    </nav>
+    <!-- END navbar -->
+
+<!-- BEGIN Главная  -->
+<header class="da-header">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-7">
+				<div class="da-header__body">
+					<h1 class="da-header__title">
+						системы очистки воды и  водоподготовки
+					</h1>
+					<p class="da-header__text">
+						Компания «Вектор Воды» занимается очисткой воды и сервисным обслуживанием используя самые современные технологии в водоснабжении и  водоочистке.
+					</p>
+					<button class="da-header__btn da-header__btn-body" data-toggle="modal" data-target="#myModal">Подобрать оборудование</button>
+
+	    		</div>
+			</div>
+			<div class="col-sm-5"></div>
+		</div>
+	</div>
+</header>
+<!-- END Главная -->
+
+<!-- BEGIN О нас  -->
+<div class="da-about">
+	<div class="container">
+		<h2 class="da-about__title">
+			о нас
+		</h2>
+
+		<div class="row">
+			<div class="col-sm-4">
+				<img class="da-about__img_left" src="images/about__img_left.png" alt="">
+			</div>
+			<div class="col-sm-8">
+				<p class="da-about__text_right">
+					Компания «Вектор Воды» предлагает различные решения очистки воды для дома, дачи или коттеджа, а также системы промышленной водоподготовки, пищевой промышленности, пивоварения, ликероводочного производства. <br>
+					Оказываем разнообразные услуги, необходимые при организации <br>
+					систем водоподготовки.
+				</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-8">
+				<p class="da-about__text_left">
+					Несмотря на то, что компания «ВЕКТОР ВОДЫ» основалась в 2017 году, наши сотрудники имеют многолетний опыт в области водоподготовки. На нашем счету обслуживание предприятий занимающихся производством продуктов питания, алкогольной продукции, предприятия энергетики, промышленности и  котельные.
+				</p>
+
+				<a href="opros.doc" class="da-about__btn">Скачать опросный лист</a>
+			</div>
+			<div class="col-sm-4">
+				<img class="da-about__img_right" src="images/about__img_right.png" alt="">
+			</div>
+		</div>
+
+	</div>
+</div>
+<!-- END О нас -->
+
+<!-- BEGIN Наши услуги  -->
+<div class="da-services">
+	<div class="container">
+		<h2 class="da-services__title">
+			наши услуги
+		</h2>
+		<p class="da-services__subtitle">
+			Наша компания предлагает вашему вниманию большой спектр услуг
+		</p>
+		<!-- BEGIN row1  -->
+		<div class="row">
+
+		    <div class="col-sm-3">
+		    	<a class="da-services__item" href="montazh.html">
+		    		<img class="da-services__img" src="images/services__img_1.png" alt="">
+					<p class="da-services__text">
+						Монтаж и пуско-наладка систем водоподготовки
+					</p>
+		    	</a>
+		    </div>
+
+		    <div class="col-sm-3">
+		    	<a class="da-services__item" href="servisnoye_obsluzhivaniye.html">
+		    		<img src="images/services__img_2.png" alt="">
+					<p class="da-services__text">
+						Сервисное обслуживание
+						водоподготовительного
+						оборудования
+					</p>
+		    	</a>
+		    </div>
+
+		    <div class="col-sm-3">
+		    	<a class="da-services__item" href="podbor_oborudovaniya.html">
+		    		<img src="images/services__img_3.png" alt="">
+					<p class="da-services__text">
+						Готовые комплексы для
+						решения проблем <br>
+						воды
+					</p>
+		    	</a>
+		    </div>
+
+		    <div class="col-sm-3">
+		    	<a class="da-services__item" href="prodazha_reagentov.html">
+		    		<img src="images/services__img_4.png" alt="">
+					<p class="da-services__text">
+						Поставка фильтрующих
+						материалов и <br>
+						реагентов
+					</p>
+		    	</a>
+		    </div>
+
+		</div>
+		<!-- END row1 -->
+
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-10">
+					<div class="da-services__row2">
+						<!-- BEGIN row2  -->
+						<div class="row">
+
+						    <div class="col-sm-4">
+						    	<a class="da-services__item" href="prodazha_oborudovaniya.html">
+						    		<img src="images/services__img_5.png" alt="">
+									<p class="da-services__text">
+										Поставка комплектующего
+										оборудования для систем <br>
+										водоподготвки
+									</p>
+						    	</a>
+						    </div>
+
+						    <div class="col-sm-4">
+						    	<a class="da-services__item" href="obezzarazhivaniye_vody.html">
+						    		<img src="images/services__img_6.png" alt="">
+									<p class="da-services__text">
+										Установки <br>
+										УФ-обеззараживания
+									</p>
+						    	</a>
+						    </div>
+
+						    <div class="col-sm-4">
+						    	<a class="da-services__item" href="basseyny.html">
+						    		<img src="images/services__img_7.png" alt="">
+									<p class="da-services__text">
+										Монтаж и сервисное обслуживание <br>
+										бассейнов
+									</p>
+						    	</a>
+						    </div>
+
+						</div>
+						<!-- END row2 -->
+					</div>
+			</div>
+			<div class="col-sm-1"></div>
+		</div>
+
+	</div>
+</div>
+<!-- END Наши услуги -->
+
+<!-- BEGIN Форма  -->
+<div class="da-form">
+    <div class="container">
+		<h3 class="da-form__title">
+			Заполните форму и получите <br> бесплатный подбор оборудования!
+		</h3>
+
+		<div class="row">
+	        <div class="col-sm-12">
+	            <form id="form1" class="form-inline da-form__center">
+	                <div class="form-group">
+	                    <input type="text" name="name" class="da-form__control"  placeholder="Ваше имя " required>
+	                </div>
+	                <div class="form-group">
+	                    <input type="tel" name="phone" class="da-form__control maskedinput"  placeholder="Ваш телефон" required>
+	                </div>
+
+	                <button type="submit" class="da-form__btn">Получить подбор!</button>
+	            </form>
+	        </div>
+	    </div>
+
+	    <p class="da-form__text">
+			*Предложение действует для физических лиц (дома, котеджи, дачи)
+	    </p>
+
+    </div>
+</div>
+<!-- END Форма -->
+
+<!-- BEGIN как мы работаем  -->
+<div class="da-working">
+	<div class="container">
+		<h2 class="da-working__title">
+			как мы работаем
+		</h2>
+
+		<div class="da-working__body">
+			<div class="row">
+
+				<!-- BEGIN 1  -->
+				<div class="col-sm-1">
+					<div class="da-working__item_1">
+						<img src="images/working__img_1.png" alt="">
+						<p class="da-working__text da-working__text_1">
+							Ваш <br> звонок
+						</p>
+					</div>
+				</div>
+				<!-- END 1 -->
+
+				<!-- BEGIN 2  -->
+				<div class="col-sm-1">
+					<div class="da-working__item_2">
+						<img src="images/working__img_2.png" alt="">
+						<p class="da-working__text da-working__text_2">
+							Предоставление <br> анализа воды
+						</p>
+					</div>
+				</div>
+				<!-- END 2 -->
+
+				<div class="col-sm-2"></div>
+
+				<!-- BEGIN 3  -->
+				<div class="col-sm-1">
+					<div class="da-working__item_3">
+						<img src="images/working__img_3.png" alt="">
+						<p class="da-working__text da-working__text_3">
+							Подбор <br> оборудования
+						</p>
+					</div>
+				</div>
+				<!-- END 3 -->
+
+				<!-- BEGIN 4  -->
+				<div class="col-sm-1">
+					<div class="da-working__item_4">
+						<img src="images/working__img_4.png" alt="">
+						<p class="da-working__text da-working__text_4">
+							Коммерческое предложение<br> со стоимостью и сроком<br> выполнения работ
+						</p>
+					</div>
+				</div>
+				<!-- END 4 -->
+
+				<div class="col-sm-2"></div>
+
+				<!-- BEGIN 5  -->
+				<div class="col-sm-1">
+					<div class="da-working__item_5">
+						<img src="images/working__img_5.png" alt="">
+						<p class="da-working__text da-working__text_5">
+							Монтаж и пусконаладка <br> оборудования
+						</p>
+					</div>
+				</div>
+				<!-- END 5 -->
+
+				<!-- BEGIN 6  -->
+				<div class="col-sm-2">
+					<div class="da-working__item_6">
+						<img src="images/working__img_6.png" alt="">
+						<p class="da-working__text da-working__text_6">
+							Сервисное<br>  обслуживание
+						</p>
+					</div>
+				</div>
+				<!-- END 6 -->
+
+				<div class="col-sm-1"></div>
+
+			</div>
+		</div>
+
+	</div>
+</div>
+<!-- END как мы работаем -->
+
+<!-- BEGIN галерея работ  -->
+<div class="da-gallery">
+	<div class="container">
+		<h2 class="da-gallery__title">
+			галерея работ
+		</h2>
+
+		<!-- BEGIN slick-slider  -->
+		<div class="slick-slider">
+
+			<!-- BEGIN Объект 1  -->
+			<div class="da-gallery__item">
+				<br>
+				<p class="da-gallery__text"><span class="da-gallery__text_blue">Обьект:</span>коттедж.</p>
+				<p class="da-gallery__text"><span class="da-gallery__text_blue">Описание работ:</span> очистка воды из скажины, производительность установки 1м3 /ч. </p>
+				<p class="da-gallery__text"><span class="da-gallery__text_blue">Состав установки:</span> ёмкость с исходной водой, фильтр обезжелезивания и фильтр умягчения.</p>
+
+				<div class="row">
+					<div class="col-xs-4">
+						<a class="fancybox" rel="group" href="images/gallery/1/gallery__img_11.jpg">
+							<img class="da-gallery__img" class="img-responsive" src="images/gallery/1/gallery__img_11.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-xs-4">
+						<a class="fancybox" rel="group" href="images/gallery/1/gallery__img_12.jpg">
+							<img class="da-gallery__img" class="img-responsive" src="images/gallery/1/gallery__img_12.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-xs-4">
+						<a class="fancybox" rel="group" href="images/gallery/1/gallery__img_13.jpg">
+							<img class="da-gallery__img" class="img-responsive" src="images/gallery/1/gallery__img_13.jpg" alt="">
+						</a>
+					</div>
+				</div>
+
+			</div>
+			<!-- END Объект 1 -->
+
+			<!-- BEGIN Объект 2  -->
+			<div class="da-gallery__item">
+
+				<p class="da-gallery__text"><span class="da-gallery__text_blue">Обьект:</span>п. Светлый.</p>
+				<p class="da-gallery__text"><span class="da-gallery__text_blue">Описание работ:</span> реконструкция установки водоподготовки для поселка. </p>
+				<p class="da-gallery__text"><span class="da-gallery__text_blue">Состав установки:</span> Добавлены еще два фильтра обезжелезивания для увеличения производительности установки и улучшения показателей воды.</p>
+
+				<div class="row">
+					<div class="col-xs-4">
+						<a class="fancybox" rel="group" href="images/gallery/2/gallery__img_21.jpg">
+							<img class="da-gallery__img" class="img-responsive" src="images/gallery/2/gallery__img_21.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-xs-4">
+						<a class="fancybox" rel="group" href="images/gallery/2/gallery__img_22.jpg">
+							<img class="da-gallery__img" class="img-responsive" src="images/gallery/2/gallery__img_22.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-xs-4">
+						<a class="fancybox" rel="group" href="images/gallery/2/gallery__img_23.jpg">
+							<img class="da-gallery__img" class="img-responsive" src="images/gallery/2/gallery__img_23.jpg" alt="">
+						</a>
+					</div>
+				</div>
+
+			</div>
+			<!-- END Объект 2 -->
+
+			<!-- BEGIN Объект 3  -->
+			<div class="da-gallery__item">
+
+				<br>
+				<br>
+				<br>
+				<p class="da-gallery__text"><span class="da-gallery__text_blue">Обьект:</span>п.Рыбачий НСО.</p>
+				<p class="da-gallery__text"><span class="da-gallery__text_blue">Описание работ:</span> очистка воды из скажины производительностью 1м3 /ч.</p>
+
+				<div class="row">
+					<div class="col-xs-4">
+						<a class="fancybox" rel="group" href="images/gallery/3/gallery__img_31.jpg">
+							<img class="da-gallery__img" class="img-responsive" src="images/gallery/3/gallery__img_31.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-xs-4">
+						<a class="fancybox" rel="group" href="images/gallery/3/gallery__img_32.jpg">
+							<img class="da-gallery__img" class="img-responsive" src="images/gallery/3/gallery__img_32.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-xs-4">
+						<a class="fancybox" rel="group" href="images/gallery/3/gallery__img_33.jpg">
+							<img class="da-gallery__img" class="img-responsive" src="images/gallery/3/gallery__img_33.jpg" alt="">
+						</a>
+					</div>
+				</div>
+
+			</div>
+			<!-- END Объект 3 -->
+
+			<!-- BEGIN Объект 4  -->
+			<div class="da-gallery__item">
+
+				<p class="da-gallery__text"><span class="da-gallery__text_blue">Обьект:</span> с. Кубовая.</p>
+				<p class="da-gallery__text"><span class="da-gallery__text_blue">Описание работ:</span> очистка воды в коттедже, производительность установки 1м3 /ч.</p>
+				<p class="da-gallery__text"><span class="da-gallery__text_blue">Состав установки:</span> фильтр обезжелезивания, с регенерацией перманганатом калия и фильтр умягчения с регенерацией поваренной солью.</p>
+
+				<div class="row">
+					<div class="col-xs-4">
+						<a class="fancybox" rel="group" href="images/gallery/4/gallery__img_41.jpg">
+							<img class="da-gallery__img" class="img-responsive" src="images/gallery/4/gallery__img_41.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-xs-4">
+						<a class="fancybox" rel="group" href="images/gallery/4/gallery__img_42.jpg">
+							<img class="da-gallery__img" class="img-responsive" src="images/gallery/4/gallery__img_42.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-xs-4">
+						<a class="fancybox" rel="group" href="images/gallery/4/gallery__img_43.jpg">
+							<img class="da-gallery__img" class="img-responsive" src="images/gallery/4/gallery__img_43.jpg" alt="">
+						</a>
+					</div>
+				</div>
+
+			</div>
+			<!-- END Объект 4 -->
+
+			<!-- BEGIN Объект 5  -->
+			<div class="da-gallery__item">
+
+				<br>
+				<p class="da-gallery__text"><span class="da-gallery__text_blue">Обьект:</span>коттедж п. Красный Яр.</p>
+				<p class="da-gallery__text"><span class="da-gallery__text_blue">Описание работ:</span> очистка воды из скважины. </p>
+				<p class="da-gallery__text"><span class="da-gallery__text_blue">Состав установки:</span> фильтр обезжелезивания, фильтр умягчения, картриджный фильтр и уф-стерилизатор.</p>
+
+				<div class="row">
+					<div class="col-xs-6">
+						<a class="fancybox" rel="group" href="images/gallery/5/gallery__img_51.jpg">
+							<img class="da-gallery__img" class="img-responsive" src="images/gallery/5/gallery__img_51.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-xs-6">
+						<div class="row">
+							<div class="col-xs-6">
+								<a class="fancybox" rel="group" href="images/gallery/5/gallery__img_52.jpg">
+									<img class="da-gallery__img" class="img-responsive" src="images/gallery/5/gallery__img_52.jpg" alt="">
+								</a>
+							</div>
+							<div class="col-xs-6">
+								<a class="fancybox" rel="group" href="images/gallery/5/gallery__img_53.jpg">
+									<img class="da-gallery__img" class="img-responsive" src="images/gallery/5/gallery__img_53.jpg" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-6">
+								<a class="fancybox" rel="group" href="images/gallery/5/gallery__img_54.jpg">
+									<img class="da-gallery__img da-gallery__img_small" class="img-responsive" src="images/gallery/5/gallery__img_54.jpg" alt="">
+								</a>
+							</div>
+							<div class="col-xs-6">
+								<a class="fancybox" rel="group" href="images/gallery/5/gallery__img_55.jpg">
+									<img class="da-gallery__img da-gallery__img_small" class="img-responsive" src="images/gallery/5/gallery__img_55.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- END Объект 5 -->
+
+			<!-- BEGIN Объект 6  -->
+			<div class="da-gallery__item">
+				<br>
+				<br>
+				<br>
+				<p class="da-gallery__text"><span class="da-gallery__text_blue">Обьект:</span>школа г.Барнаул.</p>
+				<p class="da-gallery__text"><span class="da-gallery__text_blue">Описание работ:</span> система очистки воды в детском бассейне.. </p>
+
+				<div class="row">
+					<div class="col-xs-6">
+						<a class="fancybox" rel="group" href="images/gallery/6/gallery__img_61.jpg">
+							<img class="da-gallery__img" class="img-responsive" src="images/gallery/6/gallery__img_61.jpg" alt="">
+						</a>
+					</div>
+
+					<div class="col-xs-6">
+						<div class="row">
+							<div class="col-xs-2"></div>
+
+							<div class="col-xs-6">
+								<a class="fancybox" rel="group" href="images/gallery/6/gallery__img_62.jpg">
+									<img class="da-gallery__img" class="img-responsive" src="images/gallery/6/gallery__img_62.jpg" alt="">
+								</a>
+							</div>
+
+							<div class="col-xs-4"></div>
+
+						</div>
+
+						<div class="row">
+
+							<div class="col-xs-2"></div>
+
+							<div class="col-xs-6">
+								<a class="fancybox" rel="group" href="images/gallery/6/gallery__img_64.jpg">
+									<img class="da-gallery__img da-gallery__img_small" class="img-responsive" src="images/gallery/6/gallery__img_64.jpg" alt="">
+								</a>
+							</div>
+
+							<div class="col-xs-4"></div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+			<!-- END Объект 6 -->
+
+		</div>
+		<!-- END slick-slider -->
+
+	</div>
+</div>
+<!-- END галерея работ -->
+
+
+<!-- FOOTER -->
+<footer class="da-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3">
+				<a class="da-footer__logo"href="index.html">
+					<img src="images/footer__logo.png" alt="">
+				</a>
+				<p class="da-footer__phone">
+					+7 (913) 931-05-10
+				</p>
+
+				<div id="buttonTop">
+        			<span class="icon-angle-up">Наверх</span>
+    			</div>
+
+			</div>
+			<div class="col-sm-3">
+				<ul class="da-footer__list">
+					<li>
+						<a href="montazh.html" class="da-footer__link">Монтаж и пусконаладка</a>
+					</li>
+					<li>
+						<a href="servisnoye_obsluzhivaniye.html" class="da-footer__link">Сервисное обслуживание</a>
+					</li>
+					<li>
+						<a href="prodazha_oborudovaniya.html" class="da-footer__link">Продажа оборудования</a>
+					</li>
+					<li>
+						<a href="prodazha_reagentov.html" class="da-footer__link">Продажа реагентов</a>
+					</li>
+					<li>
+						<a href="podbor_oborudovaniya.html" class="da-footer__link">Подбор оборудования</a>
+					</li>
+					<li>
+						<a href="basseyny.html" class="da-footer__link">Бассейны</a>
+					</li>
+
+					<li>
+						<a href="osvetleniye_vody.html" class="da-footer__link">Осветление</a>
+					</li>
+					<li>
+						<a href="obezzhelezivaniye_vody.html" class="da-footer__link">Обезжелезивание воды</a>
+					</li>
+					<li>
+						<a href="umyagcheniye_vody.html" class="da-footer__link">Умягчение</a>
+					</li>
+					<li>
+						<a href="obezzarazhivaniye_vody.html" class="da-footer__link">Уф обеззараживание</a>
+					</li>
+					<li>
+						<a href="membrannyye_tekhnologii.html" class="da-footer__link">Мембранные технологии</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+
+			<form id="form2" class="da-footer__form">
+				<h3 class="da-footer__title">
+					Остались вопросы?
+				</h3>
+				<p class="da-footer__subtitle">
+					Задайте их нашим специалистам
+				</p>
+			    <div class="da-footer__group">
+			        <input type="text" name="name" class="da-footer__control"  placeholder="Ваше имя " required>
+			    </div>
+			    <div class="da-footer__group">
+			        <input type="tel" name="phone" class="da-footer__control maskedinput"  placeholder="Ваш телефон" required>
+			    </div>
+			    <div class="da-footer__group">
+			        <textarea name="text" name="text" class="da-footer__control da-footer__control_textarea "  placeholder="Ваш вопрос"></textarea>
+			    </div>
+			    <button type="submit" class="da-footer__btn">Задать вопрос!</button>
+			</form>
+
+			</div>
+		</div>
+		<div class="row">
+			<p class="da-footer__cop">
+				2017 / Все права защищены
+			</p>
+		</div>
+	</div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+<!--build:js js/script.min.js -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/maskedinput.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/yandex_map.js"></script>
+<script src="js/script.js"></script>
+<!-- endbuild -->
+
+<!--  Заказать звонок -->
+<div class="modal fade da-modal" id="myModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                	<button type="button" class="close da-close" data-dismiss="modal" aria-label="Close">X</button>
+					<div class="da-modal__item">
+						<img class="da-modal__logo" src="images/footer__logo.png" alt="">
+						<!-- form -->
+						<form id="form3" class="da-modal__form">
+
+							<h3 class="da-modal__title">
+								Оставте вашу заявку!
+							</h3>
+
+						    <div class="da-modal__group">
+						        <input type="text" name="name" class="da-modal__control"  placeholder="Ваше имя " required>
+						    </div>
+						    <div class="da-modal__group">
+						        <input type="tel" name="phone" class="da-modal__control maskedinput"  placeholder="Ваш телефон" required>
+						    </div>
+						    <button type="submit" class="da-modal__btn">Отправить заявку!</button>
+						</form>
+						<!-- /form -->
+					</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!--  Заказать звонок -->
+
+<!-- Спасибо за заявку -->
+<div class="modal fade da-modal" id="thanks" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                	<button type="button" class="close da-close" data-dismiss="modal" aria-label="Close">X</button>
+					<div class="da-modal__item">
+						<h3 class="da-modal__title da-modal__thanks">
+							 Спасибо за вашу<br> заявку!
+						</h3>
+						<p class="da-modal__text">
+							В скором времени мы<br> свяжемся с вами
+						</p>
+
+					</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!-- /Спасибо за заявку -->
+
+</body>
+</html>
